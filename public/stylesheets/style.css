@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 10px 10px;
+  width: 100%;
+  min-height: 100vh;
+}
+.body2 {
+  padding: 50px 100px;
+  width: 100%;
+  min-height: 100vh;
+}
+.body1 {
+  padding: 20px;
+  font-size: 16px;
+  overflow-y: hidden;
+}
+.body1 a button {
+  margin: 10px;
+}
+.body2btn {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.body2btn a {
+  margin: 0px 5px;
+}
+
+form {
+  position: relative;
+  background-color: #dcdde1;
+  padding: 50px;
+  border-radius: 10px;
+}
+form div h1 {
+  text-align: center;
+  margin: 10px;
+  margin-top: -20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+form select::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+.submitcontainer {
+  padding: 100px;
+  text-align: center;
+}
+.sbheading h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.sbbtnn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.sbbtnn a {
+  margin: 5px;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 20px;
+  position: fixed;
+  color: #fff;
+  z-index: 100;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+nav div a img {
+  margin-right: 20px;
+}
+nav div a h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.row {
+  width: 100%;
+}
+.row .col-md-2,
+.row .col-md-10 {
+  height: 83.5vh;
+  padding: 20px;
+  margin-top: 95px;
+}
+.row .col-md-10 {
+  margin-left: 270px;
+  overflow-x: hidden;
+}
+.row .col-md-2 {
+  background-color: #f5f5f5;
+  position: fixed;
+}
+.row .col-md-2 div {
+  padding: 10px;
+}
+.row .col-md-2 div:hover {
+  padding: 10px;
+}
+.row .col-md-2 div h1 {
+  width: 100%;
+}
+.row .col-md-2 div button {
+  width: 100%;
+}
+.row .col-md-2 div button:hover {
+  background-color: #3c40c6;
+  border-color: #3c40c6;
+  color: #fff;
+  transform: scale(1.1);
+  transition: 0.3s all linear;
+}
+.row .col-md-2 div:last-child button:hover {
+  background-color: red;
+  border-color: red;
+}
+
+@media screen and (max-width: 1000px) {
+  .body {
+    padding: 10px;
+  }
+  form div h1 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+}
